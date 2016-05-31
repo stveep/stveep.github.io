@@ -1,15 +1,9 @@
 ---
 layout: page
-title: About
+title: Steve Pettitt - About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I work at the [Institute of Cancer Research](http://www.icr.ac.uk/our-research/researchers-and-teams/dr-stephen-pettitt) in London, looking for genetic determinants of sensitivity and resistance to cancer drugs. In particular, I'm interested in drugs affecting DNA repair pathways such as PARP inhibitors. I use CRISPR, transposons, Illumina, Ion Torrent and Nanopore sequencing and any other cool experimental genetic technology that I can get my hands on! I analyse my data using Ruby, R, Python and more.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+In my spare time I also contribute to open source software, mainly Ruby/Rails.
