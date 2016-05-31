@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Steve Pettitt - About Me
+title: About Me
 permalink: /about/
 ---
 
