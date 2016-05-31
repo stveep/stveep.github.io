@@ -70,3 +70,5 @@ I used [Pathogen](https://github.com/tpope/vim-pathogen) which makes installatio
 {% highlight vim %}
 command -nargs=1 Biorc :call Rcsearch(<f-args>)
 {% endhighlight %}
+
+And here's the [repository link](https://github.com/stveep/biovim).
