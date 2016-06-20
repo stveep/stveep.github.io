@@ -20,7 +20,7 @@ As any vim wizard knows, all you need here is a quick `<Ctrl-V>GI><ESC>:%s/\s\+/
 GTTC => GTTC|GAAC 
 ```
 
-These thoughts came with a certain amount of trepidation, however, as vims reputation for inscrutability is as legendary as its power (see my fasta conversion "macro" above). Fortunately a bit of searching found [this useful PDF](mattmargolis.net/scripting_vim_with_ruby.pdf), suggesting that you could script Vim plugins in ruby! Sounds great, I could use Bioruby, or just knock up my own reverse-complementing function very easily, a bit like this.
+These thoughts came with a certain amount of trepidation, however, as vims reputation for inscrutability is as legendary as its power (see my fasta conversion "macro" above). Fortunately a bit of searching found [this useful PDF](http://mattmargolis.net/scripting_vim_with_ruby.pdf), suggesting that you could script Vim plugins in ruby! Sounds great, I could use Bioruby, or just knock up my own reverse-complementing function very easily, a bit like this.
 
 {% highlight ruby %}
 def rcsearch(seq)
