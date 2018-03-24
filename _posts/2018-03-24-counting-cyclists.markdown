@@ -34,7 +34,7 @@ The large peak (for King Street near Ravenscourt Park) seems to be caused by the
 
 ![plot of chunk unnamed-chunk-2]({{ "/assets/unnamed-chunk-2-1.png" | absolute_url }})
 
-So the estimated 2016 figures, as well as the last available manual counts in 2010/2011 were all above 5% for the A315 in Hammersmith, and in some cases substantially so. The highest figure in fact is for the Avonmore & Brook Green section of the route, where the 2010 count was already 12.5%, which is likely to have increased since given the generally higher levels of cycling. The Ravenscourt figure is also greater than 10%. The other two locations are part of the one way system leading to and from the Gyratory so perhaps are not typical, yet still are both have at least 5% cyclists.
+So the estimated 2016 figures, as well as the last available manual counts in 2010/2011 were all above 5% for the A315 in Hammersmith, and in some cases substantially so. The highest figure in fact is for the Avonmore & Brook Green section of the route, where the 2010 count was already 12.5%, which is likely to have increased since given the generally higher levels of cycling. The Ravenscourt figure is also greater than 10%. The other two locations are part of the one way system leading to and from the Gyratory so perhaps are not typical, yet still have at least 5% cyclists.
 
 It's a shame that more recent count data are not available for the route; however it's clear that the numbers of cyclists compared to other motor vehicles along the route are higher than the 5% figure being used to suggest cyclists are an ignorable minority. These are average daily counts, so at rush hour the proportions could be substantially higher, consistent with my anecdotal experience.
 
