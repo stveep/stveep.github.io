@@ -28,11 +28,11 @@ However, a more relevant statistic pertaining to the CS9 consultation would be t
 
 Number of bikes as a percentage of all motor vehicles and bikes:
 
-![plot of chunk unnamed-chunk-1](assets/unnamed-chunk-1-1.png)
+![plot of chunk unnamed-chunk-1]({{ "assets/unnamed-chunk-1-1.png" | absolute_url }})
 
 The large peak (for King Street in Hammersmith town centre) seems to be caused by the long period of estimated readings proving inaccurate when a count was undertaken. We can also look at the data using just the actual counts rather than the estimates.
 
-![plot of chunk unnamed-chunk-2](assets/unnamed-chunk-2-1.png)
+![plot of chunk unnamed-chunk-2]({{ "assets/unnamed-chunk-2-1.png" | absolute_url }})
 
 So the estimated 2016 figures, as well as the last available manual counts in 2010/2011 were all above 5% for the A315 in Hammersmith, and in some cases substantially so. The highest figure in fact is for the Avonmore & Brook Green section of the route, where the 2010 count was already 12.5%, which is likely to have increased since given the generally higher levels of cycling. The Ravenscourt figure is also greater than 10%. The other two locations are part of the one way system leading to and from the Gyratory so perhaps are not typical, yet still are both have at least 5% cyclists.
 
