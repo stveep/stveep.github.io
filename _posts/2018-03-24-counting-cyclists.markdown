@@ -30,7 +30,7 @@ Number of bikes as a percentage of all motor vehicles and bikes:
 
 ![plot of chunk unnamed-chunk-1]({{ "/assets/unnamed-chunk-1-1.png" | absolute_url }})
 
-The large peak (for King Street in Hammersmith town centre) seems to be caused by the long period of estimated readings proving inaccurate when a count was undertaken. We can also look at the data using just the actual counts rather than the estimates.
+The large peak (for King Street near Ravenscourt Park) seems to be caused by the long period of estimated readings proving inaccurate when a count was undertaken. We can also look at the data using just the actual counts rather than the estimates.
 
 ![plot of chunk unnamed-chunk-2]({{ "/assets/unnamed-chunk-2-1.png" | absolute_url }})
 
@@ -41,6 +41,6 @@ It's a shame that more recent count data are not available for the route; howeve
 I'm still not sure if this is really the revelant statistic is however. It ignores several other factors, for example:
 
 * Most "road users" are in fact pedestrians and completely ignored by these statistics. Making streets pleasant places to be through schemes such as CS9 benefits them. If we are going to design streets around the most numerous users, pedestrians should be prioritised, and certainly not cars.
-* The LBHF Profile above shows that just under half of households in the borough have access to a car. 56% of respondents to the consultation report traveling by car locally and 65% by bike. So there must be a substantial number of people (including me) who both drive and cycle, as there will be plenty that do neither.
-* The "build it and they will come" factor. Car ownership is falling, but cycling is more affordable and accessible for many. Elsewhere in London, buiding protected cycle routes has led to large increases in use, and along the central routes, cyclists make up 46% of peak traffic, taking up only 30% of the road space: <https://www.london.gov.uk/sites/default/files/londons_cycling_infrastructure.pdf>
+* The LBHF Profile above shows that just under half of households in the borough have access to a car. 56% of respondents to the consultation report traveling by car locally and 65% by bike. So there must be a substantial number of people (including me) who both drive and cycle, as there will be plenty that do neither. These people may also support better cycling infrastruture.
+* The "build it and they will come" factor. Car ownership is falling, but cycling is more affordable and accessible for many. Elsewhere in London, buiding protected cycle routes has led to large increases in use, and along the central routes, cyclists make up 46% of peak traffic, taking up only 30% of the road space: <https://www.london.gov.uk/sites/default/files/londons_cycling_infrastructure.pdf>. If this pattern is repeated here, it is likely that the proportion of cyclists on the route will increase once it is built.
 
