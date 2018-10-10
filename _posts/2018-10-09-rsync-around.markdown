@@ -2,6 +2,7 @@
 layout: post
 title: "Rsync Around"
 date: 2018-10-09
+categories: rsync unix nanopore
 ---
 
 ### Using rsync for transfers, backups and more
@@ -33,7 +34,9 @@ I use similar commands to pull files from the server to my computer when I am wo
 
 Recently I have been using the Oxford Nanopore MinION sequencer a lot. One of the very many cool things about this DNA sequencer is that it plugs into your laptop via USB. Unfortunately, as throughput has improved, this does tend to fill up your hard drive rather rapidly with directories full of very long sequencing read files. The software creates subdirectories with 4000 reads (files) each by default. Usually I leave the sequencer running overnight, so I wanted a solution to transfer the read files to a server as they completed.
 
-I decided I didn't trust the connection to the server to be maintained overnight, and in there may have been I/O speed issues that I didn't want to get into, so saving them there directly from the sequencer  wasn't an option. I thought I might write a script that would check periodically and copy the files, but after a bit of digging found that rsync could do this for me with the following options: `--remove-source-files -avm --include="*.fast5" -f 'hide,! */'`
+I decided I didn't trust the connection to the server to be maintained overnight, and in there may have been I/O speed issues that I didn't want to get into, so saving them there directly from the sequencer  wasn't an option. I thought I might write a script that would check periodically and copy the files, but after a bit of digging found that rsync could do this for me with the following options: 
+
+```rsync --remove-source-files -avm --include="*.fast5" -f 'hide,! */' data/ server:path/to/dir/```
 
 Useful options when setting something like this up are `--verbose` and `--dry-run` to show the file list that would be transferred without actually transferring them (or deleting the source files!). I actually use verbose mode in the cronjob transfers to allow a detailed log to be created, just in case anything did go wrong. The slightly weird part here is specifying that we only want fast5 files to be copied. The filter option here hides all non-directories, effectively listing the directories to copy. Specifying the `*.fast5` pattern alone in the `--include` option then limits the transferred files to those matching the pattern (At least that's how I understand it...this filter set is taken straight from the rsync man page). 
 

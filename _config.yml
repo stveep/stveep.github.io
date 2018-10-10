@@ -9,7 +9,7 @@
 title: Steve Pettitt
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Made in a factory handling genetics, cancer, CRISPR, sequencing, R, ruby, rails and nuts.
+  I work in the Gene Function team at the Institute of Cancer Research. This blog exists mainly so I don't forget things I have learned about bioinformatics, R, unix, genetics, cancer, CRISPR, sequencing, cycling, trombone playing...probably not all at once.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://stveep.github.io" # the base hostname & protocol for your site
 twitter_username: stveep
